@@ -7,7 +7,19 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .test {
+                height:1000px;
+                background-color:"black";
+            }
+            .img-container {
+                top: 50%;
+                left: 50%;
+                bottom: 50%;
+            }
+        </style>
     </head>
+
     <body>
         <div class="jumbotron text-center">
             <h2 style="color:red">Hello World</h1>
@@ -22,8 +34,10 @@
             <div class="row">
                 <div class="col-sm-1"></div>
                 <div class="col-sm-3"  style="text-align:center">
-                    <img src="images/resume.png" width="45">
+                    <div class="img-container">
+                        <img src="images/resume.png" width="45" alt="Credits to Freepik">
                     <h1>About me</h1>
+                    </div>
                 </div>
                 <div class="col-sm-7" style="text-align:justify">
                     <p>
@@ -36,20 +50,37 @@
                         One of my favourite sport is Bouldering as it demands not only physical strength, but
                         also mental strength to identify, breakdown, and analyse the steps to conquer the problem.
                     </p>
+                        <br>
+                    <p>
+                        The main purpose of this project is to guide my friends with little IT background to create a
+                        simple website on their own using HTML, and CSS.
+                    </p>
 
                 </div>
                 <div class="col-sm-1"></div>
             </div>
         </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
+        <div><br><br></div>
+        <div class="containter">
+            <div class="row" style="justify:center">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3"  style="text-align:center">
+                    <div class="img-container">
+                        <img src="images/cap.png" width="45" alt="Credits to Freepik">
+                    <h1>Education Overview</h1>
+                    </div>
                 </div>
-                <div class="col-sm-4" style="text-align:center" >
-                    <h3>Education</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+                <div class="col-sm-7" style="text-align:justify">
+                    <h3>Singapore Institute of Technology</h3>
+                    <p>Expected Graduation: 2024</p>
+                    <p>Bachelor of Engineering in Information and Communication Technology
+                        <br>majoring in Software Engineering
+                    </p>
+                    <h3>Ngee Ann Polytechnic</h3>
+                    <p>Graduation Year: 2018</p>
+                    <p>Diploma in Information Technology with an option in Business and Data Analytics</p>
                 </div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
         <!-- <div class="container">
@@ -58,5 +89,7 @@
                 <p>This is a caption for the image</p>
             </div>
         </div> -->
+    </body>
+
 
 </html>
