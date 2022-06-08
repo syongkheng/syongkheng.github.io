@@ -17,50 +17,67 @@
                 left: 50%;
                 bottom: 50%;
             }
+            .nav.navbar-nav{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+            .footer-text {
+                position: absolute;
+                top: 50%;
+                transform: translate(0%,-50%);
+                color: grey;
+            }
+            .center-block {
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%,-40%);
+            }
+            
         </style>
     </head>
 
-    <body>
-        <div class="jumbotron text-center">
-            <h2 style="color:red">Hello World</h1>
-            <p>I'm hosted with GitHub Pages.</p>
-            <p>
-                <a href="https://www.linkedin.com/in/yong-kheng-seah-6606b910a">
-                    <img src="images/linkedin.png" width="25" alt="Credits to Freepik">
-                </a>
-            </p>
-        </div>
+    <body style=" background-image: url('images/bg-40pct.png')">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">syongkheng</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-knight"></span> Experience</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-education"></span> Resume</a></li>
+              </ul>
+            </div>
+          </nav>
+
         <div class="containter">
-            <div class="row">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3"  style="text-align:center">
-                    <div class="img-container">
-                        <img src="images/resume.png" width="45" alt="Credits to Freepik">
-                    <h1>About me</h1>
+            <!-- <div class="row" style="background-color:black"><br>x<br>x<br></div> -->
+            <div class="center-block">
+                <div class="row">
+                    <div class="col-sm-7"  style="text-align:center">
+                        <div class="img-container">
+                            <h1>Hello World!</h1>
+                            <p></p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-7" style="text-align:justify">
-                    <p>
-                        Hello, I am Yong Kheng, a year 2 student pursuing my Bachelor of Engineering 
-                        in Information and Communication Technology majoring in Software Engineering. I am
-                        expected to graduate in 2024.
-                    </p>
-                        <br>
-                    <p>
-                        One of my favourite sport is Bouldering as it demands not only physical strength, but
-                        also mental strength to identify, breakdown, and analyse the steps to conquer the problem.
-                    </p>
-                        <br>
-                    <p>
-                        The main purpose of this project is to guide my friends with little IT background to create a
-                        simple website on their own using HTML, and CSS.
-                    </p>
-
+                <div class = "row">
+                    <div class="col-sm-1" style="text-align:justify"></div>
+                        <p>
+                            I am Yong Kheng, a year 2 student pursuing my Bachelor of Engineering 
+                            in Information and Communication Technology majoring in Software Engineering. I am
+                            expected to graduate in 2024.
+                        </p>
+                    </div>  
                 </div>
-                <div class="col-sm-1"></div>
+                
+
             </div>
         </div>
-        <div><br><br></div>
+        <!-- <div><br><br></div>
         <div class="containter">
             <div class="row" style="justify:center">
                 <div class="col-sm-1"></div>
@@ -83,12 +100,48 @@
                 <div class="col-sm-1"></div>
             </div>
         </div>
+        <div class="containter">
+            <div class="row" style="justify:center">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-3"  style="text-align:center">
+                    <div class="img-container">
+                        <img src="images/cap.png" width="45" alt="Credits to Freepik">
+                    <h1>Education Overview</h1>
+                    </div>
+                </div>
+                <div class="col-sm-7" style="text-align:justify">
+                    <h3>Singapore Institute of Technology</h3>
+                    <p>Expected Graduation: 2024</p>
+                    <p>Bachelor of Engineering in Information and Communication Technology
+                        <br>majoring in Software Engineering
+                    </p>
+                    <h3>Ngee Ann Polytechnic</h3>
+                    <p>Graduation Year: 2018</p>
+                    <p>Diploma in Information Technology with an option in Business and Data Analytics</p>
+                </div>
+                <div class="col-sm-1"></div>
+            </div>
+        </div> -->
         <!-- <div class="container">
             <div class="text-center">
                 <img src="test_image.png" class="img-fluid" alt="Responsive image">
                 <p>This is a caption for the image</p>
             </div>
         </div> -->
+
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                <p><span class="footer-text">Designed by Yong Kheng</span></p>
+                <div class="center-block">
+                    <p>
+                        <a href="https://www.linkedin.com/in/yong-kheng-seah-6606b910a">
+                            <img src="images/linkedin.png" width="25" alt="Credits to Freepik">
+                        </a>
+                    </p>
+                </div>
+                
+            </div>
+          </nav>
     </body>
 
 
