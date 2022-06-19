@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>syongkheng's experience</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <style>
+            .nav.navbar-nav{
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+            .center-block {
+                position: absolute;
+                top: 50%;
+                left:50%;
+                transform: translate(-50%,-40%);
+                display: flex;
+                flex-wrap: wrap;
+            }
+        </style>
+    </head>
+    <body style=" background-image: url('images/bg-10pct.png')">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">syongkheng</a>
+              </div>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="experience.html"><span class="glyphicon glyphicon-knight"></span> Experience</a></li>
+                <li><a href="resume.html"><span class="glyphicon glyphicon-education"></span> Resume</a></li>
+              </ul>
+            </div>
+          </nav>
+
+        <div class="container" style="height:100vh; width:100%;">
+            <div class="row" style="height:20%">
+                <div style="text-align:center;"><h3><u>Internship</u></h3></div>
+            </div>
+            <div>
+                <h3><u>Student Research Assistant</u></h3>
+                <p>Role:    &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Software Engineering Intern (Android Mobile Application Development)</p>
+                <p>Project: &ensp;&ensp;<a href="https://www.immersification.org/projects/2019/03/17/fmlm.html">First Mile/Last Mile Commute</a></p>
+                <h4>Notable Contributions</h4>
+                <ul>
+                    <li>Plotted historical geographical points in each path taken by users as a heatmap.</li>
+                    <li>Developed a filter feature by year, month, and date from scratch by conversion and comparison of Unix timestamp.</li>
+                    <li>Reduced the loading time and reading operation cost of data retrieval quadratically by at least 80%.</li>
+                    <li>Reduced the writing operation of data insertion by at least 50%.</li>
+                    <li>Mentored another intern with no Kotlin experience to finish user stories.</li>
+                </ul>
+                <p>Tools: <a href="https://www.firebase.google.com">Google's Cloud Firestore</a>, <a href="https://developer.android.com/kotlin">Android Studio (Kotlin)</a></p>
+                
+            </div>
+        </div>
+        <div class="container" style="height:100vh; width:100%;">
+            <div style="text-align:center;"><h3><u>School Project Archives</u></h3></div>
+            <br>
+            <div style="text-align:justify; margin:auto;">
+                <h4>&ensp;Big Data Analysis over Social Media Data</h4>
+                <p>Extracted over 500,000 rows of data from 3 subreddits to perform sentimental analysis and topic modelling on the citizens' response to their government COVID-19 regulations.
+                    Data extracted was transformed, and then loaded into Python and Java libraries to train and produce results. The 3 subreddit chosen were 
+                    r/Singapore (Highly Collectivistic), r/India (Moderate), and r/Canada (Highly Individualistic) due to their culture. </p>
+                <p>Tools/Languages:
+                    <a href="https://pypi.org/project/text2emotion/">Text2Emotion (Python3)</a>,
+                    <a href="https://scikit-learn.org">sklearn (Python3)</a>,
+                    <a href="https://hadoop.apache.org">Hadoop (Java)</a>,
+                    <a href="https://mimno.github.io/Mallet/">Mallet (Java)</a></p>
+                <p> An 8 minutes long youtube video about the project can be seen <a href="https://www.youtube.com/watch?v=d3uVlSmvXdE">here</a>.</p>
+            </div>
+            <br>
+            <div style="text-align:justify; margin:auto;">
+                <h4>&ensp;Embedded Systems (MSP432) Robotic Car</h4>
+                <p>A MSP432 micro-controller was programmed to be the brain of a robot controlling different sensors such as the DC Gear Motors, Motor Engines (L298N), 
+                    Ultrasonic Sensors (HC-SR04), IR Line Tracking Modules, IR Optical Speed Sensors, and a Bluetooth Serial Transceiver). Concepts such as Power Width Modulation
+                    was incorporated. The car was remotely controlled by a dashboard via bluetooth, and information retrieved from the sensors are returned.
+                </p>
+                <p>Tools/Languages:
+                    <a href="https://www.ti.com/tool/CCSTUDIO3">Texas Instrument's Code Composer Studio (C/Assembly Code)</a>
+                </p>
+                <p> A 4 minutes long youtube video about the project can be seen <a href="https://www.youtube/watch?v=gUorzaB1uHc">here</a>.</p>
+            </div>
+            <br>
+            <div style="text-align:justify; margin:auto;">
+                <h4>&ensp;TinyCircuits Watch</h4>
+                <p>A <a href="https://learn.tinycircuits.com/Kits/TinyScreen-Smart-Watch-Kit_Tutorial/" >TinyCircuits Smart Watch Kit </a> was transformed into a fitness tracker, which could
+                    automatically detects when a repetition of Push Up/Sit Up was done. The aim of the fitness tracker it to help users to keep track of their repetition count such
+                    that their focus could be entirely on the exercise and to display a pace to achieve the maximum score for <a href="https://www.ns.sg/web/portal/nsmen/home/nstopics/ippt-nsfit">IPPT</a>. The motion is detected through the accelerometer sensor, and a score calculator helps the user to calculate the amount of
+                    points needed to achieve the gold award. Information from the fitness tracker could be sent to mobile devices through Bluetooth Low Energy.
+                </p>
+                <p>Tools/Languages:
+                    <a href="https://www.ti.com/tool/CCSTUDIO3">Arduino (C)</a>
+                </p>
+                <p> A 3 minutes long youtube video about the project can be seen <a href="https://www.youtube.com/watch?v=MwtQDS205LE">here</a>.</p>
+            </div>
+            <div class="container" style="height:10vh; width:100%;">
+
+            </div>
+        </div>
+        <nav class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container-fluid">
+                <div class="center-block">
+                    <div>
+                        <p>
+                            <a href="https://www.linkedin.com/in/yong-kheng-seah-6606b910a">
+                                <img src="images/linkedin.png" width="25" alt="Credits to Freepik">
+                            </a>
+                        </p>
+                    </div>
+                    <div style="width:25px"></div>
+                    <div>
+                        <p>
+                            <a href="https://www.github.com/syongkheng">
+                                <img src="images/github-white.png" width="25">
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </nav>
+    </body>
+
+
+</html>

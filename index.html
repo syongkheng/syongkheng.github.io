@@ -1,33 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Simple Portfolio</title>
+        <title>about syongkheng</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <style>
-            .test {
-                height:1000px;
-                background-color:"black";
-            }
-            .img-container {
-                top: 50%;
-                left: 50%;
-                bottom: 50%;
-            }
             .nav.navbar-nav{
                 display: flex;
                 justify-content: center;
                 text-align: center;
                 flex-wrap: wrap;
-            }
-            .footer-text {
-                position: absolute;
-                top: 50%;
-                transform: translate(0%,-50%);
-                color: grey;
             }
             .center-block {
                 position: absolute;
@@ -37,10 +22,8 @@
                 display: flex;
                 flex-wrap: wrap;
             }
-            
         </style>
     </head>
-
     <body style=" background-image: url('images/bg-10pct.png')">
         <nav class="navbar navbar-inverse">
             <div class="container-fluid">
@@ -49,91 +32,59 @@
               </div>
               <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-knight"></span> Experience</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-education"></span> Resume</a></li>
+                <li><a href="experience.html"><span class="glyphicon glyphicon-knight"></span> Experience</a></li>
+                <li><a href="resume.html"><span class="glyphicon glyphicon-education"></span> Resume</a></li>
               </ul>
             </div>
-          </nav>
-
-        <div class="containter">
-            <!-- <div class="row" style="background-color:black"><br>x<br>x<br></div> -->
-            <div class="center-block">
-                <div class="row">
-                    <div class="col-sm-7"  style="text-align:center">
-                        <div class="img-container">
-                            <h1>Hello World!</h1>
-                            <p></p>
-                        </div>
-                    </div>
+        </nav>
+        <!-- First page/section -->
+        <div class="container-fluid" style="height:100vh; width:100%;">
+            <div class="row" style="margin:auto; height:30%;">
+            </div>
+            <div class="row" style="padding-left: 10%; margin:auto; height:10%;">
+                <h1>Hello World!</h1>
+            </div>
+            <br>
+            <div class="row" style="display:flex; align-items:center; justify-content:center; margin:auto; height:10%;">
+                <div class="col-sm-11" style="text-align:justify;">
+                    <p>I am Yong Kheng, a year 2 student from the Singapore Institute of Technology pursuing my 
+                        <br>Bachelor of Engineering in Information and Communication Technology majoring in Software Engineering. 
+                        <br>I am expected to graduate in 2024.</p>
                 </div>
-                <div class = "row">
-                    <div class="col-sm-1" style="text-align:justify"></div>
-                        <p>
-                            I am Yong Kheng, a year 2 student pursuing my Bachelor of Engineering 
-                            in Information and Communication Technology majoring in Software Engineering. I am
-                            expected to graduate in 2024.
-                        </p>
-                    </div>  
-                </div>
-                
-
+            </div>
+            <div class="row" style="margin:auto; height:50%;">
             </div>
         </div>
-        <!-- <div><br><br></div>
-        <div class="containter">
-            <div class="row" style="justify:center">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3"  style="text-align:center">
-                    <div class="img-container">
-                        <img src="images/cap.png" width="45" alt="Credits to Freepik">
-                    <h1>Education Overview</h1>
-                    </div>
+        <!-- Second page/section -->
+        <div class="containter" style="height:100vh; width:100%;">
+            <div class="row" style="text-align:center; margin: auto; height: 10%;">
+                <h2>Interest</h2>
+            </div>
+            <div class="row" style="margin: auto; height: 50%;">
+                <div class="col-sm-4">
+                    <img src="images/hobby-img.png" width="100%">
                 </div>
-                <div class="col-sm-7" style="text-align:justify">
-                    <h3>Singapore Institute of Technology</h3>
-                    <p>Expected Graduation: 2024</p>
-                    <p>Bachelor of Engineering in Information and Communication Technology
-                        <br>majoring in Software Engineering
+                <div class="col-sm-8" style="height: 50%;">
+                </div>
+                <div class="col-sm-8" style="text-align:justify; ">
+                    <p>My hobby includes Bouldering, the image shows an attempt on a blue-colored hold route.</p>
+                    <p>Bouldering intrigues me as it can be seen as a big problem, which could be solved by 
+                        breaking it down into smaller problems, and executing moves by moves to eventually
+                        overcome the problem. The physical and mental aspect of the sport allows me to keep myself
+                        physically and mentally fit.
                     </p>
-                    <h3>Ngee Ann Polytechnic</h3>
-                    <p>Graduation Year: 2018</p>
-                    <p>Diploma in Information Technology with an option in Business and Data Analytics</p>
                 </div>
-                <div class="col-sm-1"></div>
+                <div class="col-sm-8" style="height: 50%;">
+                </div>
             </div>
         </div>
-        <div class="containter">
-            <div class="row" style="justify:center">
-                <div class="col-sm-1"></div>
-                <div class="col-sm-3"  style="text-align:center">
-                    <div class="img-container">
-                        <img src="images/cap.png" width="45" alt="Credits to Freepik">
-                    <h1>Education Overview</h1>
-                    </div>
-                </div>
-                <div class="col-sm-7" style="text-align:justify">
-                    <h3>Singapore Institute of Technology</h3>
-                    <p>Expected Graduation: 2024</p>
-                    <p>Bachelor of Engineering in Information and Communication Technology
-                        <br>majoring in Software Engineering
-                    </p>
-                    <h3>Ngee Ann Polytechnic</h3>
-                    <p>Graduation Year: 2018</p>
-                    <p>Diploma in Information Technology with an option in Business and Data Analytics</p>
-                </div>
-                <div class="col-sm-1"></div>
-            </div>
-        </div> -->
-        <!-- <div class="container">
-            <div class="text-center">
-                <img src="test_image.png" class="img-fluid" alt="Responsive image">
-                <p>This is a caption for the image</p>
-            </div>
-        </div> -->
-
+        <!-- Third page/(sub)section -->
+        <div class="containter" style="text-align:center; height:15vh; width:100%;">
+            <p>Disclaimer: The main purpose of this webpage is to teach my friends with little to no IT backgrounds about basic HTML and CSS.</p>
+        </div>
+        
         <nav class="navbar navbar-inverse navbar-fixed-bottom">
             <div class="container-fluid">
-                <p><span class="footer-text">Designed by Yong Kheng</span></p>
                 <div class="center-block">
                     <div>
                         <p>
@@ -150,13 +101,8 @@
                             </a>
                         </p>
                     </div>
-
-
                 </div>
-                
             </div>
           </nav>
     </body>
-
-
 </html>
